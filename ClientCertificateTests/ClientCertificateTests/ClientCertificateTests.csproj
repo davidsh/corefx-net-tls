@@ -69,6 +69,7 @@
     <Content Include="packages.config" />
     <Content Include="HelloWorld.ashx" />
     <Content Include="Echo.ashx" />
+    <Content Include="EchoClientCertificate.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,6 +83,9 @@
   <ItemGroup>
     <Compile Include="Echo.ashx.cs">
       <DependentUpon>Echo.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="EchoClientCertificate.ashx.cs">
+      <DependentUpon>EchoClientCertificate.ashx</DependentUpon>
     </Compile>
     <Compile Include="HelloWorld.ashx.cs">
       <DependentUpon>HelloWorld.ashx</DependentUpon>

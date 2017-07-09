@@ -11,7 +11,6 @@ namespace ClientCertificateTests
     /// </summary>
     public class Echo : IHttpHandler
     {
-
         public void ProcessRequest(HttpContext context)
         {
             var headers = context.Request.Headers;
