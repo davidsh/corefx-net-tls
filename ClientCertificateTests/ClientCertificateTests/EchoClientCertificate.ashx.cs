@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
+// https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-configure-tls-mutual-auth
+// 
 namespace ClientCertificateTests
 {
     /// <summary>
